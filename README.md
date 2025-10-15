@@ -227,7 +227,3 @@ MIT
 - [Gliquid Mechanisms](https://gliquids-organization.gitbook.io/jojo-gliquid/)
 - [Original NFTStrategy](https://www.nftstrategy.fun/)
 - [Uniswap V4 Hooks](https://docs.uniswap.org/contracts/v4/overview)
-
-## Support
-
-For issues and questions, please open a GitHub issue.
