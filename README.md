@@ -208,15 +208,6 @@ The `NFTStrategyPlugin` implements all Algebra Integral plugin hooks:
 4. **Flash Loan Hooks** - Passthrough only; could add custom logic
 5. **Gas Reporting**: Tests using transient storage (EIP-1153) may fail with `forge test --gas-report` due to Foundry's gas measurement clearing transient state between calls. Run `forge test` without `--gas-report` for accurate test results.
 
-## Future Improvements
-
-- [ ] Integration with real Algebra Integral contracts
-- [ ] Advanced fee collection mechanism
-- [ ] TWAP price oracle integration
-- [ ] Governance system for parameter updates
-- [ ] Multi-collection support
-- [ ] NFT valuation oracles
-
 ## License
 
 MIT
