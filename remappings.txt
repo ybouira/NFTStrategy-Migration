@@ -1,0 +1,4 @@
+@openzeppelin/=lib/openzeppelin-contracts/
+@cryptoalgebra/=lib/algebra-integral-core/
+solady/=lib/solady/src/
+forge-std/=lib/forge-std/src/
