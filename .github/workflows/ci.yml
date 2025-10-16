@@ -1,10 +1,22 @@
 name: CI
 on: [push, pull_request]
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: foundry-rs/foundry-toolchain@v1
-      - run: forge build
-      - run: forge test
+
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: nightly
+
+      - name: Install Dependencies
+        run: forge install --no-commit
+
+      - name: Build Contracts
+        run: forge build
+
+      - name: Run Tests
+        run: forge test -vvv
