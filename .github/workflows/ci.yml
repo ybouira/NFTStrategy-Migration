@@ -13,7 +13,7 @@ jobs:
           version: nightly
 
       - name: Install Dependencies
-        run: forge install --no-commit
+        run: forge install
 
       - name: Build Contracts
         run: forge build
